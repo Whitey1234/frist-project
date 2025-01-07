@@ -69,3 +69,76 @@ letter-spacing: 0%;
 text-align: center;
 
 }
+#box {
+    width: 937px;
+    margin: 50px auto;
+}
+#box .title .tittle {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+#box .title .main-title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+ }
+.container {
+margin-top: 32px;
+}
+.card-box{
+    display: flex;
+    justify-content:space-between;
+    font-family:Work Sans;
+
+}
+.card {
+    max-width: 254px;
+    display: flex;
+    flex-direction:column;
+    gap: 20 px;
+    justify-content: center;
+    align-items: center;
+}
+.card .img {
+   width: 301px; 
+}
+.card .img img {
+     width: 100%; 
+}
+.card .item {
+    padding: 8px 22px 8px 22px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+
+background: rgba(82, 195, 3, 0.15);
+
+}
+.btn2 {
+    
+        padding: 16px 24px 16px 25px;
+        
+        border-radius: 8px;
+        border: none;
+
+background: rgb(82, 195, 3);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 20px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+    
+}
